@@ -1,0 +1,88 @@
+/* CSS Document */
+
+.header_main{
+float:left;
+width:320px;
+height:auto;
+margin-left:-8px;
+background:url(images/header.png) repeat-x top left;
+}
+
+p{
+color:#FFFFFF;
+font-weight:bold;
+text-align:center;
+}
+
+.back img{
+float:left;
+margin-top:-40px;
+margin-left:5px;
+}
+
+.send{
+float:right;
+margin-top:-40px;
+margin-right:5px;
+}
+
+
+.bottom_div2{
+width:100%;
+position:fixed;
+left:0;
+bottom:0;
+}
+.f1_i1{
+float:left;
+bottom:auto;
+}
+
+.section img{
+margin: 10px 0px 0px 80px;
+}
+
+c{
+color:#FF3300;
+font-weight:bold;
+font-size:24px;
+text-align:center;
+}
+
+d1{
+font-weight:normal;
+}
+
+b1{
+font-weight:bold;
+font-size:18px;
+}
+
+b2{
+font-weight:bold;
+font-size:18px;
+}
+
+.okay img{
+float:right;
+}
+
+input{
+width:242px;
+border-radius:7px;
+}
+textarea{
+border-radius:7px;
+}
+
+.share{
+
+float: right;
+margin: -41px 5px 0px 0px;
+}
+
+.p9{
+color:#FFFFFF;
+font-weight:bold;
+padding:16px;
+}

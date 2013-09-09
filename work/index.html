@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style2.css" />
+<title>Responsive page</title>
+
+<script language="javascript">
+
+function onDetail(){
+
+service.useService("http://thecompleteafricanrecipe.com/sub_cat_show1.php?id= 85");
+
+service.HelloWorldService.callService("HelloWorld");
+
+function ShowResult(){
+      alert(event.result.value);
+     }
+/*window.location.assign("http://thecompleteafricanrecipe.com/sub_cat_show1.php?id= 85")*/
+
+/*String url= "http://thecompleteafricanrecipe.com/sub_cat_show1.php?id= 85";
+document.location.href=url;*/
+} 
+
+</script>
+
+
+</head>
+<body bgcolor="#CCCCCC">
+
+<div class="header_main">
+
+<div class="p9"> The Complete African Recipe </div>
+<!--<div class="send"><img src="drawable/send.png" height="30" width="80"/></div>-->
+<div class ="share"> <div class="hupso-share-buttons">
+<a class="hupso_pop" href="http://www.hupso.com/share/"><img src="drawable/send.png" height="30" width="60" alt="Share Button" /></a>
+<script type="text/javascript">var hupso_services=new Array("Twitter","Facebook","Google Plus","Pinterest","Linkedin","Tumblr","StumbleUpon");var hupso_icon_type = "labels";var hupso_background="#EAF4FF";var hupso_border="#66CCFF";</script>
+<script type="text/javascript" src="share.js"></script></div></div>
+
+</div>
+
+
+<!--<div class="top">
+
+<p1> The Complete African Recipe </p1>
+
+<div class ="share"> 
+<div class="hupso-share-buttons">
+<a class="hupso_pop" href="http://www.hupso.com/share/"><img src="drawable/send.png" height="30" width="60" alt="Share Button" /></a>
+<script type="text/javascript">var hupso_services=new Array("Twitter","Facebook","Google Plus","Pinterest","Linkedin","Tumblr","StumbleUpon");var hupso_icon_type = "labels";var hupso_background="#EAF4FF";var hupso_border="#66CCFF";</script>
+<script type="text/javascript" src="share2.js"></script></div>
+<!--<img src="drawable/send.png" height="30" width="80"/>-->
+</div>
+</div>
+
+<div id="hor_one">
+
+<div class="h1_i1">
+<img src="images/soup1.jpg" height="70" width="70" onclick="onDetail()  style="behavior:url(webservice.htc)" onresult="ShowResult()""/><br />
+<d>Soup & Stew </d>
+</div>
+
+<div class="h1_i1">
+<a href=""><img src="images/starter3.jpg" height="70" width="70"/><br />
+<d> Starter & Side </d>
+</div>
+
+<div class="h1_i1">
+<a href=""><img src="images/pastery2.jpg" height="70" width="70"/><br />
+<d> Pastries </d>
+</div>
+</div>
+
+
+<div id="hor_two">
+
+<div class="h1_i2">
+<img src="images/Gourmet.jpg" height="70" width="70"/><br />
+<d> Sea Food</d>
+</div>
+
+<div class="h1_i2">
+<img src="images/vegetarian.jpg" height="70" width="70"/><br />
+<d> Salad</d>
+</div>
+
+<div class="h1_i2">
+<img src="images/image4.jpg" height="70" width="70"/><br />
+<d> Drink</d>
+</div>
+
+
+</div>
+
+
+
+<div id="hor_three">
+
+<div class="h1_i3">
+<img src="images/rice.jpg" height="70" width="70"/><br />
+<d> African Gourmet</d>
+</div>
+
+<div class="h1_i3">
+<img src="images/vegetarian01.jpg" height="70" width="70"/><br />
+<d> Vegitarian</d>
+</div>
+
+<div class="h1_i3">
+<img src="images/beef.jpg" height="70" width="70"/><br />
+<d> Meat</d>
+</div>
+
+
+</div>
+
+
+
+
+<div class="bottom_div">
+<div class="f1_i1"> <img src="drawable/home_select.png" height="45" width="80"/></div>
+<div class="f1_i1"><a href="favourite.html"><img src="images/favorites.png" height="45" width="80"/></a></div>
+<div class="f1_i1"><a href="about.html"><img src="images/about.png" height="45" width="80"/></a></div>
+<div class="f1_i1"><a href="send_recipe.html"><img src="images/send_recipe_hover.png" height="45" width="80"/></a></div>
+</div>
+
+</body>
+</html>
